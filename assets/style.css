@@ -1,0 +1,28 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #3F4534;
+}
+
+.color1 { background-color: #3F4534; }
+.color2 { background-color: #5C654C; }
+.color3 { background-color: #95A47B; }
+.color4 { background-color: #BDD09C; }
+.color5 { background-color: #CFE4AB; }
+
+.colorfront1 { color: #3F4534; }
+.colorfront2 { color: #5C654C; }
+.colorfront3 { color: #95A47B; }
+.colorfront4 { color: #BDD09C; }
+.colorfront5 { color: #CFE4AB; }
+
+@keyframes pulse {
+    0%   {background-color: #95A47B;}
+    100% {background-color: #CFE4AB;}
+}
+
+button {
+    animation-name: pulse;
+    animation-duration: 1s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count:infinite;
+}
